@@ -1,0 +1,113 @@
+/* Write your CSS here! */
+
+body {margin:0;}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #cfd4d29a;
+  position: fixed;
+  top: 0;
+  
+  width: 100%;
+  height: 20%;
+}
+
+
+
+li a {
+  display:inline-block;
+   line-height: 30px;
+float: right;
+  
+  position: relative;
+ 
+  overflow: visible;
+  visibility: inherit;
+  
+  text-decoration: none;
+  
+
+
+  font-size: 20px;
+  
+    color:  #0d0a0b;
+    font-family:normal normal normal 16px/1.4em futura-lt-w01-light,futura-lt-w05-light,sans-serif;
+}
+.name {
+  position: relative;
+  margin: 50px 0px -3px calc((100% - 980px) * 0.5);
+  left: 0px;
+  grid-area: 1 / 1 / 2 / 2;
+  justify-self: start;
+  align-self: start;
+  height: auto;
+  width: 309px;
+  font-size: 50px;
+  color: #110f10; 
+  font-family: 'Satisfy', cursive;
+  font-weight: normal;
+  text-shadow: 0 1px 1px #fff; 
+}
+.contact
+{
+  position: relative;
+    margin: 9px 0px 33px calc((100% - 980px) * 0.5);
+    left: 0px;
+    grid-area: 2 / 1 / 3 / 2;
+    justify-self: start;
+    align-self: start;
+    width: 214px;
+}
+
+li a:hover:not(.active) {
+  color: rgb(144, 14, 105);
+  font-size: 30px;
+}
+
+li .active {
+  color: rgb(144, 14, 105);
+}
+
+#MeImage{
+  /* width: 200px;
+  height: 100px;
+  
+  object-fit: none;
+  object-position: left top;
+  margin-right: 20px; */
+
+  position:relative;
+  margin-top: -80px;
+      margin-right: 100px;
+  }
+
+  .cp-text{ color:  #0e090a;; text-shadow: 0 1px rgba(255, 255, 255, 0.1);
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+   
+
+    text-align: center;
+  }
+  
+
+  #hello
+  {
+    color: #CEF0D4; 
+    font-family: 'Rouge Script', 
+    cursive; font-size: 130px;
+     font-weight: normal; 
+     line-height: 48px;
+      margin: 0 0 50px; 
+      text-align: center;
+      text-shadow: 1px 1px 2px #082b34; 
+      text-align: right;
+      position: absolute;
+      top: 300px;
+      right: 200px;
+      
+  }
